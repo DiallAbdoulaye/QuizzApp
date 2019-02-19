@@ -28,10 +28,10 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        quizs.add(Quiz("Quelle est la capitale de l'Algérie ?", "Alger", "Paris", "Marseille", 1))
-        quizs.add(Quiz("Quelle est la capitale de la France ?", "Alger", "Paris", "Marseille", 2))
-        quizs.add(Quiz("Quelle est la capitale de l'Angola ?", "Alger", "Paris", "Luanda", 3))
-        quizs.add(Quiz("Quelle est la capitale de l'Autriche ?", "Alger", "Vienne", "Marseille", 2))
+        quizs.add(Quiz("En quelle année est sorti le manga Dragon Ball ?", "1986", "1987", "1988", 1))
+        quizs.add(Quiz("Quel est le nom du personnage principal du manga Dragon Ball?", "Sangohan", "Sangoku", "Sangoten", 2))
+        quizs.add(Quiz("Quelle est la technique favorite du personnage principal du manga Dragon Ball ?", "Rei Gun", "Final Flash", "Kamehameha", 3))
+        quizs.add(Quiz("Qui a détruit la planète Végéta dans le manga Dragon Ball?", "Beerus", "Freezer", "Broly", 2))
 
         //Pour mélanger les questions
         Collections.shuffle(quizs);
